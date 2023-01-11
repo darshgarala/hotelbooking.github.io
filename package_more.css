@@ -1,0 +1,243 @@
+
+.navbar1 .navbar .container-fluid
+{
+    background-color: rgba(220, 214, 241, 0.9);
+
+}
+.navbar1 .container-fluid .navbar-brand{
+    font-size: 25px;
+    margin-left: 10px; 
+    padding: 15px 15px;  
+}
+.btn-outline-success
+{
+    color:black;
+    background-color: rgb(114, 153, 112);
+}
+.btn-outline-success:hover
+{
+    background-color: red;
+}
+
+.mum{
+    font-size: 20px;
+    width: 100%;
+    background-color: rgb(154, 212, 245);
+    padding: 20px 20px;
+}
+
+.packages{
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+.packages .box-container{
+
+    display: flex;
+    flex-wrap: wrap;    
+    gap:2rem;
+}
+
+.packages .box-container .box{
+
+    flex:1 1 20rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    /* box-shadow: 0 10rem 20rem   rgba(229, 176, 176, 0.3)  ; */
+}
+
+.packages .box-container .box img{
+
+    height:300px;
+    width:100%;
+    object-fit: cover;
+    background-color: rgb(247, 240, 229);
+
+
+    /* opacity: 1000; */
+}
+
+
+.packages .box-container .box img:hover
+{
+    border-radius: 100px;
+    /* border: 2px double rgb(20, 11, 34); */
+    border: 4px dotted rgb(212, 189, 239);
+    transition: 1s; 
+
+}
+
+.packages .box-container .box .content{
+    padding:2rem;
+}
+
+.packages .box-container .box .content:hover{
+    /* padding:2rem; */
+    background-color: rgb(247, 240, 229);
+}
+.packages .box-container .box .content h3
+{
+    font-size: 22px;
+}
+
+.packages .box-container .box .content h3 i
+{
+    color: rgb(120, 50, 7);
+}
+
+.packages .box-container .box .content p
+{
+    font-size: 1.1rem;
+    color: #654304;
+    padding: 2rem 0rem;    
+}
+
+.packages .box-container .box .content .start i
+{
+    font-size: 1.33rem;
+    color:rgb(20, 11, 34);
+
+}
+
+.packages .box-container .box .content .price
+{
+    font-size: 2rem;
+    color:rgb(211, 48, 129);
+    padding-top: 1rem;
+} 
+.packages .box-container .box .content .price span
+{
+    color: rgb(236, 157, 11);
+    font-size: 1.5rem;
+    text-decoration: line-through;      
+}
+
+.more a{
+
+    display: inline-block;
+    margin-top: 1rem;
+    background:rgb(236, 232, 182);
+    padding: .8rem 3rem;
+    color:black;
+    border: .2rem solid rgb(219, 168, 117);
+    cursor: pointer;
+    font-size: 1.7rem;
+    transition: all 1s ease-in-out .3s;
+}
+
+.more a:hover {
+    /* background: rgb(233, 218, 188);
+    color: #000; */
+    background-color: rgb(201, 203, 230);
+        /* height: 40px; */
+        /* width: 200px; */
+        border: 1px solid rgb(44, 40, 40);
+        border-radius: 1px;
+        font-size: 15px;
+}
+.more1
+{
+    margin-top:10px;
+    margin-left: 1050px;
+}
+
+
+.navbar1 span{
+    top: 2px;
+    left: 12;
+    right: 12;
+    font-size: 30px;
+    color: #654304;
+    transition: all 1s ease-in-out ;
+
+}
+.navbar1 span:hover {
+    /* background-color: rgb(247, 189, 189); */
+        height: 40px;
+        width: 200px;
+        /* border: 1px solid rgb(243, 239, 239); */
+        /* border-radius: 1px; */
+        font-size: 25px;
+    color: black;
+}
+
+.m span{
+    color: black;
+    background-color: bisque;
+    text-decoration: line-through;
+}
+.m .m2 p a{
+    /* display: inline-block; */
+    margin-top: .5rem;
+    background:rgb(236, 232, 182);
+    padding: .8rem 1rem;
+    color:black;
+    border: .2rem solid rgb(219, 168, 117);
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 1s ease-in-out .3s;
+}
+
+.m .m2 p a:hover {
+    /* background: rgb(233, 218, 188);
+    color: #000; */
+    background-color: rgb(201, 203, 230);
+        /* height: 40px; */
+        /* width: 200px; */
+        border: 1px solid rgb(44, 40, 40);
+        border-radius: 1px;
+        font-size: 10px;
+}
+
+ .box-container .box{
+  text-align: center;
+
+    border: 4px dotted rgb(189, 230, 245);
+    box-shadow: 10px 10px 10px .4px rgb(242, 222, 203);
+    width: calc ( 20rem / 1);
+
+} 
+
+
+
+
+
+/* body {
+  font-family: 'Alice', Helvetica, sans-serif;
+} */
+/* 
+ */
+.btn {
+    display: inline-block;
+    margin-top: .5rem;
+    background:rgb(236, 232, 182);
+    padding: .8rem 1rem;
+    color:black;
+    border: .2rem solid rgb(219, 168, 117);
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 1s ease-in-out .3s;
+}
+
+.btn:hover {
+    /* background: rgb(233, 218, 188);
+    color: #000; */
+    background-color: rgb(201, 203, 230);
+        /* height: 40px; */
+        /* width: 200px; */
+        border: 10px double rgb(44, 40, 40);
+        border-radius: 1px;
+        font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
